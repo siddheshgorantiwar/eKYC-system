@@ -19,3 +19,4 @@ The eKYC (Electronic Know Your Customer) system is a project that allows custome
 - `DeepFace` (for face recognition and verification)
 - `json` (for handling JSON data)
 - `re` (for regular expressions)
+- `easyocr`(for optical character recognition)
