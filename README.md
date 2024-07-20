@@ -34,7 +34,7 @@ Efficiently stores the extracted details in a pandas DataFrame for seamless proc
 - **re**: Used for regular expressions.
 - **easyocr**: Facilitates optical character recognition.
 
-![Tech Stack](https://via.placeholder.com/800x400.png?text=Technologies+Used) <!-- Replace with actual image -->
+<!--![Tech Stack](https://via.placeholder.com/800x400.png?text=Technologies+Used) <!-- Replace with actual image -->
 
 ## 📋 How It Works
 
@@ -44,42 +44,15 @@ Efficiently stores the extracted details in a pandas DataFrame for seamless proc
 4. **Detail Extraction**: Extracts key details such as name, DOB, address, and more.
 5. **Data Storage**: Stores the extracted information in a pandas DataFrame for further use.
 
-![Process Flow](https://via.placeholder.com/1000x400.png?text=Process+Flow) <!-- Replace with actual image -->
+<!--![Process Flow](https://via.placeholder.com/1000x400.png?text=Process+Flow)  Replace with actual image -->
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.x
-- Required libraries (see `requirements.txt`)
-
-### Installation
-
-1. **Clone the Repository**
-    ```bash
-    git clone https://github.com/yourusername/ekyc-system.git
-    cd ekyc-system
-    ```
-
-2. **Install Dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the Application**
-    ```bash
-    python main.py
-    ```
 
 ## 📂 Project Structure
 
 ```plaintext
 eKYC-System/
 │
-├── data/                   # Sample Aadhaar card images for testing
-├── src/                    # Source code files
-│   ├── auto_crop.py        # Auto cropping module
-│   ├── face_detection.py   # Face detection module
-│   ├── detail_extraction.py# Detail extraction module
-│   └── main.py             # Main application script
-├── requirements.txt        # Required Python libraries
-└── README.md               # Project README file
+├── Aadhaar_cropped.ipynb         # Autocropping image of aadhaar card
+├── Aadhaar_OCR.ipynb             # extract text and other details from aadhaar card           
+├── find_photo.ipynb              # Find photo in Aadhaar card
+└── face_recognition.ipynb        # recognize face
