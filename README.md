@@ -2,8 +2,7 @@
 
 The eKYC (Electronic Know Your Customer) system is an advanced project that simplifies and secures the process of customer verification. By leveraging the power of computer vision and deep learning, the system allows customers to upload an image of their Aadhaar card and automatically processes it to extract key details. This README provides a comprehensive overview of the features, technologies used, and how to get started with the project.
 
-![eKYC Banner](https://via.placeholder.com/1000x200.png?text=eKYC+System) <!-- Replace with actual image -->
-
+<!-- <img src="e-kyc-system.jpeg" alt="eKYC Banner" width="300" height="200"> -->
 ## ✨ Features
 
 ### 🌐 Auto Cropping
